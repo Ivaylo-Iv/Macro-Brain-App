@@ -1,8 +1,8 @@
-# 🧠 Macro Brain - Face Detection App
+# Macro Brain - Face Detection App
 
 A sleek and interactive face detection application built with React and powered by the Clarifai AI API. Detect faces in any image with stunning visual effects and user authentication.
 
-## ✨ Features
+## Features
 
 - **Face Detection**: Upload or paste image URLs to detect faces in real-time using the Clarifai API
 - **User Authentication**: Sign up and sign in to track your detection history
@@ -12,7 +12,7 @@ A sleek and interactive face detection application built with React and powered 
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Stylish UI**: Modern, gradient-based design with tachyons CSS framework
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ npm start
 
 The app will open in your browser at `http://localhost:3000`
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 src/
@@ -61,7 +61,7 @@ src/
 └── fonts/              # Custom fonts
 ```
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **React** - UI framework
 - **Clarifai API** - Face detection AI service
@@ -69,7 +69,7 @@ src/
 - **React Parallax Tilt** - 3D tilt effects
 - **React TSParticles** - Particle animation effects
 
-## 📦 Available Scripts
+## Available Scripts
 
 ### `npm start`
 
@@ -83,7 +83,7 @@ Launches the test runner in interactive watch mode.
 
 Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🌐 Backend Integration
+## Backend Integration
 
 This is the **frontend** repository. The backend API for user authentication and entry management is located in a separate repository.
 
@@ -95,7 +95,7 @@ The frontend communicates with the backend for:
 
 Ensure your backend API is running and the endpoints are properly configured in the App component.
 
-## 💡 How It Works
+## How It Works
 
 1. **User Authentication**: Sign up or sign in with your credentials
 2. **Enter Image URL**: Paste a URL of an image containing faces
@@ -103,7 +103,7 @@ Ensure your backend API is running and the endpoints are properly configured in 
 4. **View Results**: The app displays the image with bounding boxes around detected faces
 5. **Track Progress**: Your detection count increases with each successful detection
 
-## 🎨 Customization
+## Customization
 
 ### Add Your Own Clarifai API Key
 
@@ -121,18 +121,18 @@ const app = new Clarifai.App({
 - Component-specific styles: Check corresponding CSS files in `src/style/`
 - Responsive design: `src/style/responsive.css`
 
-## 📱 Browser Support
+## Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
+## Author
 
 Created by Ivaylo Ivanov
 
